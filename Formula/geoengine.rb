@@ -37,7 +37,7 @@ class Geoengine < Formula
     bin.install "geoengine"
 
     # Install shell completions
-    generate_completions_from_executable(bin/"geoengine", "completions")
+    # generate_completions_from_executable(bin/"geoengine", "completions")
   end
 
   def post_install

@@ -51,12 +51,7 @@ class Geoengine < Formula
 
       To get started:
         geoengine --help              Show all commands
-        geoengine project init        Create a new project
-        geoengine service start       Start the proxy service
-
-      For GIS integration:
-        geoengine service register arcgis  Register with ArcGIS Pro
-        geoengine service register qgis    Register with QGIS
+        geoengine init                Generate GeoEngine artifacts within project directory
 
       Make sure Docker is running before using GeoEngine.
 

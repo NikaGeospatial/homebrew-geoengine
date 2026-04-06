@@ -4,30 +4,30 @@
 class Geoengine < Formula
   desc "Docker-based isolated runtime manager for geospatial workloads"
   homepage "https://github.com/NikaGeospatial/geoengine"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-darwin-x86_64.tar.gz"
-      sha256 "01009bde9593d5020206a863ae6df5ec2c934e6756659a56dec8b51eefc4a484"
+      sha256 "e4f0f860b71c591b1cca2fe4eb821ed538d2809bc58c6f815cd820fc1431977b"
     end
 
     on_arm do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-darwin-aarch64.tar.gz"
-      sha256 "ea43f241c1147de22bbb8ff75ec7b1d6c9b461455309e35d8b5aca664404abfc"
+      sha256 "17f1d5bfad2591d5b59c19b3a17c2e968ffdc6b87575e34e4ad2eaa8e1b98609"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-linux-x86_64.tar.gz"
-      sha256 "a0a4817be0d092ca094103125279efbef7be4109fa4e41fd4527dceb2774bd8b"
+      sha256 "d5370cbeaa7feaef7f72355482bbdd45f356652c6ed2c5e8f8972d27d9531b53"
     end
 
     on_arm do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-linux-aarch64.tar.gz"
-      sha256 "18279fa69fac7bb111e4bf6dc0420517a05520d77e18dd17b7ea8203cc12c811"
+      sha256 "5c51c517c0ec3b816881731312b6d64137b0fa327154fadd8f5e427009039d4a"
     end
   end
 

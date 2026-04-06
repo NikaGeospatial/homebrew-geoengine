@@ -10,24 +10,24 @@ class Geoengine < Formula
   on_macos do
     on_intel do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-darwin-x86_64.tar.gz"
-      sha256 "bffdd37843266c99dc75ecf2be9bceb85bc2472e5c9eaa4e1da05a6ce2aa7794"
+      sha256 "6cff3979fb68beb947848e2cf167ccbb2f0e1fb24064ea236bd9138ced47f67c"
     end
 
     on_arm do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-darwin-aarch64.tar.gz"
-      sha256 "be11ce6c1d3c60633d3298ed8efcd59aa6bbc1fb40fe4e3672422a203eee8eee"
+      sha256 "e6106c3daf3a0f8f101ca321adc7b5962ba56dbc1361452e5cd1a414fd79733f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-linux-x86_64.tar.gz"
-      sha256 "509fab46d795a988c16b61b4ab14a9b894b404a0795afbbe84839155956dc48c"
+      sha256 "a41309bef14c95dac7172805d8d48831ff454fdf4e4af6fc22e2b842a3a6c549"
     end
 
     on_arm do
       url "https://github.com/NikaGeospatial/geoengine/releases/download/v#{version}/geoengine-linux-aarch64.tar.gz"
-      sha256 "abb8bf7e93c491fb25b3d795023d13102d17d48a1aa3a824a4caaa487d543f0f"
+      sha256 "346d9259671c34e267a29d30f56259e52ab3803c2b17c3bd068e318dd32b1402"
     end
   end
 
